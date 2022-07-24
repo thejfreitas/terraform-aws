@@ -6,7 +6,7 @@ variable "AWS_PROFILE" {
   description = "Profile to use for AWS API calls"
 }
 
-variable AWS_DEFAULT_REGION {
+variable "AWS_DEFAULT_REGION" {
   type        = string
   default     = "us-east-1"
   description = "DEfault region to use for AWS API calls"
